@@ -84,9 +84,13 @@ cursor:pointer;
     border-bottom: 3px solid #01bf71;
 }
 `
-export const NavBtn = styled.nav `
-display:flex;
-align-items:center;
+export const NavBtn = styled.nav`
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const NavBtnLink = styled(LinkR)`
