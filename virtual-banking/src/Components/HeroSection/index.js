@@ -1,13 +1,13 @@
-import React from 'react';
-import Video from '../../videos/video.mp4'
-import {HeroCont, Herobg, Videobg, HeroContent,HeroH1,HeroP,HeroBtnWrap,ArrowForward,ArrowRight  } from './HeroElements';
+import React,{useState} from 'react';
+import Video from '../videos/video.mp4'
+import {HeroCont, Herobg,Videobg, HeroContent,HeroH1,HeroP,HeroBtnWrap,ArrowForward,ArrowRight  } from './HeroElements';
 import {Button} from '../ButtonElements';
 
 const HeroElements = () => {
 
         const {hover,setHover} = useState(false)
         const onHover = () => {
-            setHover(!hover)
+            setHover(!hover);
         }
     return (
         <HeroCont>

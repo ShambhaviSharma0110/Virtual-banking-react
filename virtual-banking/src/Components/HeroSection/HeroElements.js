@@ -33,7 +33,7 @@ height:100%;
 overflow:hidden;
 
 `
-export const VideoBg = styled.video`
+export const Videobg = styled.video`
 width:100%;
 height:100%;
 -o-object-fit: cover;
@@ -77,7 +77,7 @@ export const HeroP = styled.p`
   }
 `;
 
-export const HeroBtnWrap = style.div `
+export const HeroBtnWrap = styled.div `
 margin-top:32px;
 display:flex;
 flex-direction:column;
@@ -91,3 +91,4 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `;
+
